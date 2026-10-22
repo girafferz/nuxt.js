@@ -3,7 +3,7 @@ version: 2
 defaults: &defaults
   working_directory: ~/project/nuxt
   docker:
-    - image: banian/node-headless-chrome
+    - image: cimg/node:22.23.4-browsers
 
 jobs:
   setup:
